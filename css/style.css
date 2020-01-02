@@ -1,0 +1,183 @@
+body{
+    background-color: #000000;
+    color: #ffffff !important;
+}
+header i{
+    margin: 50px 0px 0px 0px;
+    color: #04b383;
+
+}
+.jumbotron{
+    background-color: #000000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.jumbotron img {
+    height: 300px;
+    border-radius: 100%;
+    width: auto;
+    margin: 0 auto;
+    clear: both;
+}
+
+.jumbotron h1, h3 {
+    font-family : 'Josefin Sans', sans-serif;
+}
+
+.jumbotron ul{
+    text-align: center;
+}
+.jumbotron ul li {
+    list-style: none;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 60px 80px 3px 80px;
+
+}
+.jumbotron ul li a {
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+}
+
+.jumbotron a:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    margin: 0 auto;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.jumbotron a:hover:after {
+    width: 100%;
+    background: #04b383;
+}
+
+.scrollimg {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.about h1 {
+    font-size: 4em;
+    text-align: center;
+    margin: 100px auto;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.about p {
+    font-size: 1.4em;
+    text-align: justify;
+    text-align-last: center;
+    margin: 30px auto 0px auto;
+    width: 40%;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.scrollupimg {
+    margin: 10px auto;
+    padding: 0;
+    height: 35px;
+    width: auto;
+}
+
+.about a {
+    text-decoration: none;
+    position: relative;
+    color: #ffffff;
+}
+
+.projects h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 100px auto;
+    font-family: "Josefin Sans",sans-serif;
+
+}
+
+.placeholder-pic {
+    margin: 50px auto;
+
+}
+
+.projects p a{
+    text-align: center;
+    margin: 0 40%;
+    display: inline-block;
+}
+
+
+.projects .color-link  a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+}
+
+.projects .color-link a:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    margin: 0 auto;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.projects .color-link a:hover:after {
+    width: 100%;
+    background: #04b383;
+}
+.projects .scrollupimg {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contact h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 100px auto;
+    font-family: "Josefin Sans",sans-serif;
+
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact p a{
+    color: #04b383;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.contact a:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background: transparent;
+    margin: 0 auto;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.contact a:hover:after {
+    width: 100%;
+    background: #04b383;
+}
+
+footer p{
+    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 100px auto;
+}
